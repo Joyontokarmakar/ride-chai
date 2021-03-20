@@ -1,0 +1,26 @@
+.ride{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px #ddd;
+    padding: 15px;
+    background-color: rgb(255, 0, 77);
+    color: #fff;
+}
+.vehicle_image img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.ride_select:hover,
+.ride_select:hover .vehicle_name{
+    color: #ddd;
+    transition: 0.4s;
+    margin-top: -5px;
+    text-decoration: none !important;
+}
+
+.ride_select:hover .vehicle_image img{
+    transition: 0.8s;
+    transform: scale(1.1)
+}

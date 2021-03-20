@@ -1,0 +1,59 @@
+.inputDestination{
+    background-color: rgb(191, 191, 191);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.inputField{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+.inputField:focus{
+    border: 1px solid rgb(116, 116, 116);
+    box-shadow: 2px 2px 10px rgb(173 173 173) !important;
+    padding: 5px;
+    transition: 0.3s;
+    outline: 0;
+}
+
+.submit_btn{
+    background-color: firebrick;
+    color: #fff;
+    width: 100%;
+    margin: 5px 0;
+    border: 1px solid firebrick;
+    border-radius: 4px;
+}
+
+.map_img{
+    width: 80%;
+    height: auto;
+}
+
+.destination_info{
+    background-color: crimson;
+    color: #fff;
+    padding: 19px 15px 1px 15px !important;
+}
+
+.rider{
+    background-color: #fff;
+}
+
+.rider img{
+    width: 50%;
+}
+
+.common_style{
+    padding: 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.map_data{
+    height: 250px;
+}
