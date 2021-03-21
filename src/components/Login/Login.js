@@ -4,6 +4,9 @@ import "firebase/auth";
 import firebaseConfig from './firebase.config';
 import {userContext} from '../../App';
 import { useHistory, useLocation } from 'react-router';
+import fab_logo from './facebook.png';
+import google_logo from './google.png';
+import logo from './ride_chai.png';
 import './Login.css';
 
 if (!firebase.apps.length) {
@@ -34,8 +37,8 @@ const Login = () => {
         firebase.auth()
         .signInWithPopup(provider)
         .then((result) => {
-            const {displayName, email} = result.user;
-            const signedInUser = {name: displayName, email};
+            const {displayName, email, photoURL} = result.user;
+            const signedInUser = {name: displayName, email, photoURL};
             setLoggedInUser(signedInUser);
             history.replace(from)
         }).catch((error) => {
@@ -50,8 +53,8 @@ const Login = () => {
         firebase.auth()
         .signInWithPopup(provider)
         .then((result) => {
-            const {displayName, email} = result.user;
-            const signedInUser = {name: displayName, email};
+            const {displayName, email, photoURL} = result.user;
+            const signedInUser = {name: displayName, email, photoURL};
             setLoggedInUser(signedInUser);
             history.replace(from)
         })
@@ -132,8 +135,9 @@ const Login = () => {
     }
     return (
         <div>
-            <div className="row d-flex justify-content-center align-items-center w-100">
+            <div className="row d-flex justify-content-center align-items-center w-100 my-5">
                 <div className="col-md-4 col-12">
+                    <img src={logo} alt="" className="logo"/>
                     <div className="login_area mt-5 text-center">
                         <h2>Log In</h2>
                         <form onSubmit={handleSubmit}>
@@ -158,8 +162,8 @@ const Login = () => {
                             or
                             <div className="border_after"></div>
                         </div>
-                        <button onClick={handleSignGoogle} className="logButton google">Sign in with Google</button>
-                        <button onClick={handleSignFacebook} className="logButton facebook">Sign in with Facebook</button>
+                        <button onClick={handleSignGoogle} className="logButton google"> <img src={google_logo} alt=""/> Sign in with Google</button>
+                        <button onClick={handleSignFacebook} className="logButton facebook"> <img src={fab_logo} alt=""/> Sign in with Facebook</button>
                         {/* {
                             loggedInUser ? 
                             <button onClick={handleSignOut} className="btn btn-primary">Sign Out</button> 

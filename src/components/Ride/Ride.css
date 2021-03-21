@@ -3,8 +3,7 @@
     border-radius: 5px;
     box-shadow: 2px 5px 10px #ddd;
     padding: 15px;
-    background-color: rgb(255, 0, 77);
-    color: #fff;
+    background-color: #fff;
 }
 .vehicle_image img{
     width: 60%;
@@ -14,7 +13,7 @@
 
 .ride_select:hover,
 .ride_select:hover .vehicle_name{
-    color: #ddd;
+    color: #000;
     transition: 0.4s;
     margin-top: -5px;
     text-decoration: none !important;

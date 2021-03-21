@@ -2,3 +2,24 @@
     display: inline;
     margin: 5px 10px;
 }
+
+.logo_img{
+    width: 50%;
+}
+
+.navbar{
+    box-shadow: 0px 4px 12px 5px #ddd;
+}
+
+.user_img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.user_info{
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 3px #ddd;
+}

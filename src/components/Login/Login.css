@@ -41,12 +41,26 @@
     margin: 0 10px;
 }
 
-.google{
-    background-color: rgb(255, 15, 15);
-    color: #FFF;
+.google,
+.facebook{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
 }
 
-.facebook{
-    background-color: rgb(15, 43, 255);
-    color: #FFF;
+.google img,
+.facebook img{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 10%;
+}
+
+.logo{
+    margin: 0 auto;
+    display: block;
+    width: 35%;
 }

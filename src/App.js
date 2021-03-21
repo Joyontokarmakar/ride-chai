@@ -12,6 +12,7 @@ import NoMatch from './components/NoMatch/NoMatch';
 import Login from './components/Login/Login';
 import Destination from './components/Destination/Destination';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Footer from './components/Footer/Footer';
 
 export const userContext = createContext();
 
@@ -44,6 +45,7 @@ function App() {
           </Route>
           
         </Switch>
+        <Footer/>
       </Router>
     </userContext.Provider>
   );

@@ -7,13 +7,15 @@ const Ride = (props) => {
     const {name, img,id} = props.RideData;
     return (
         
-            <div className="col-md-3 ride">
+            <div className="col-12 col-sm-6 col-md-3">
                 <Link className="ride_select" to={`/destination/${id}`}>
-                    <div className="vehicle_image">
-                        <img src={img} alt=""/>
-                    </div>
-                    <div className="vehicle_info text-center">
-                        <h4 className="vehicle_name">{name}</h4>
+                    <div className="ride">
+                        <div className="vehicle_image">
+                            <img src={img} alt=""/>
+                        </div>
+                        <div className="vehicle_info text-center">
+                            <h4 className="vehicle_name">{name}</h4>
+                        </div>
                     </div>
                 </Link>
             </div>

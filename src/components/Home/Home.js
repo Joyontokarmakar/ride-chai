@@ -16,7 +16,7 @@ const Home = () => {
     }
     return (
         <div>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <h5 className="vehicle_head">Select Your Preferable Ride</h5>
                 </div>
