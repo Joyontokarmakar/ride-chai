@@ -1,6 +1,6 @@
-# Getting Started with Ride Chai Application
+# Getting Started with Ride Chai Web Application
 
-##My Website is Live on: [link](https://ridechai.web.app/)
+##My Website is Live on: [Ride Chai](https://ridechai.web.app/)
 
 ###### This is an project which made for extarcting the team player and team info.
 
