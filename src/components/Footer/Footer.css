@@ -4,4 +4,6 @@
     text-align: center;
     background-color: #fff;
     box-shadow: 0px 4px 12px 5px #ddd;
+    position: absolute;
+    margin-top: 5%;
 }
