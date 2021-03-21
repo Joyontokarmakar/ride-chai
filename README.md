@@ -1,6 +1,6 @@
-# Getting Started with Jk-Premier-League
+# Getting Started with Ride Chai Application
 
-##My Website is Live on: [link](https://jk-premier-league.netlify.app/)
+##My Website is Live on: [link](https://ridechai.web.app/)
 
 ###### This is an project which made for extarcting the team player and team info.
 
@@ -10,6 +10,7 @@
 - for Frontend
   - react
    - react router
+   - react private route
    - distructure
    - useState
    - useEffect
@@ -18,18 +19,23 @@
   - react fontawesome
 
 - for API
-  - the sports API [Link](https://thesportsdb.com/api.php)
-  - team details API [Link](https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=133604)
+  - Data collection by generating Fake Data
+  - Google Map API
+  
+- for Hosting and Authentication
+  - Firebase Authentication
+  - Google map console
 
 
-## What can User see???????
+## What Will do User
 
-  - Home page: User will see the all team data in shortly with a Details button
-  - After clicking on Details button they will se the perticular clubs/teams data with description
-  - User can also see the clubs official facebook, twitter, and youtube link also.
+  - Home page: user can Choose their prefarable ride from the list
+  - After choosing ride vehicle, user will rederict to the destination page , if user is not logged in to the system they can not directly go to the destination page, they will rederect t the login page
+  - User can also see their current position on the map.
 
 
 ## Thank you for giving your concentration
 ###### Stay connect with me
-[Joyonto Karmakar](https://github.com/Joyontokarmakar)
+[Joyonto Karmakar](https://joyontokarmakar.netlify.app)
+[github](https://www.github.com/joyontokarmakar)
 
