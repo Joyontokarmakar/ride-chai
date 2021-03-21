@@ -84,7 +84,7 @@ const Destination = (props) => {
                     </div>
 
                     <div className="col-md-8">
-                        <div className="map_data d-flex justify-content-center p-5">
+                        <div className="map_data d-flex justify-content-center py-2">
                             {/* <img className="map_img" src={map} alt=""/> */}
                             <GoogleMapReact
                                 bootstrapURLKeys={{ key: "AIzaSyDVeumCNvj7cYBUm1iK57xLU2fiT7l4EjU"}}
